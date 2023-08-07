@@ -3,7 +3,7 @@
 
 ![Comparison of the reconstruction results on MEAD (left) and VoxCeleb2 (right) datasets.](https://github.com/haonanhe/MEAD-3D/blob/main/3DReconstructionCompare-names.png)
   
-* The dataset can be downloaded via Googledrive or Baidudisk.  
+* The dataset can be downloaded via [BaiduNetDisk](https://pan.baidu.com/s/1rJzDlOiJXtcDctt1aFSpKA?pwd=joi4).  
 
 
 * The dataset is organized as below:
@@ -20,9 +20,11 @@
 
  keys  | values  | descriptions
  ---- | ----- | ------  
- 'images'  | (N, 3, 224, 224) | cropped images from MEAD datasets
- 'kpt'  | (N, 68, 3) | detected key points of each image 
  'verts'  | (N, 5023, 3) | vertices reconstructed from each image 
- 'audio'  | (S,) | corresponding audio
  'beta'  | (43, 156) | 3DMM parameters (shape, expression, pose) of the reconstruction 
 
+<!--
+# 'images'  | (N, 3, 224, 224) | cropped images from MEAD datasets
+# 'kpt'  | (N, 68, 3) | detected key points of each image 
+# 'audio'  | (S,) | corresponding audio
+-->
