@@ -21,7 +21,7 @@
  keys  | values  | descriptions
  ---- | ----- | ------  
  'verts'  | (N, 5023, 3) | vertices reconstructed from each image 
- 'beta'  | (43, 156) | 3DMM parameters (shape, expression, pose) of the reconstruction 
+ 'beta'  | (43, 156) | 3DMM parameters (shape, expression, pose) of the [FLAME](https://flame.is.tue.mpg.de/) reconstruction 
 
 <!--
 # 'images'  | (N, 3, 224, 224) | cropped images from MEAD datasets
